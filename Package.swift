@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "YF_DataAcqu",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "YF_DataAcqu",
@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/leonard-li/YF_Core_SPM.git", 
-            from: "1.7.2"
+            from: "1.7.3"
     )
     ],
     targets: [
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "YF_DataAcqu_Binary",
-            url: "https://mvn.yifants.cn/artifactory/fineboost-spm/eas/5.3.3/YFData.xcframework.zip",
-            checksum: "c0497c5f0482459d469cfd68990856bfd285604abf76252c389355df979b03b1"
+            url: "https://mvn.yifants.cn/artifactory/fineboost-spm/eas/5.3.6/YFData.xcframework.zip",
+            checksum: "716f778d1e9790bdf5e347395a58d5da68b86d4df93c7d11a46d646ed78f55c1"
         )
     ]
 )
