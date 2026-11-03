@@ -29,7 +29,7 @@ let package = Package(
         .binaryTarget(
             name: "YF_DataAcqu_Binary",
             url: "https://mvn.yifants.cn/artifactory/fineboost-spm/eas/5.3.8/YFData.xcframework.zip",
-            checksum: "04500cc81c3e71b656e0f0129335ed2cfde1b20d7042d40bd4493343c039f72c"
+            checksum: "c204a0788e3af820eaac51cb1bd10ff6e297a6aae19ba3403f8d41ef4fbbe66f"
         )
     ]
 )
